@@ -68,7 +68,13 @@ Identity reconstruction is not primarily intellectual. You cannot think your way
 
 But intellectual clarity is a starting point. And the intellectual clarity that the post-ASI moment demands is this:
 
-*You are not what you produce. You are the one who experiences.*
+*The value of building was always in what it did to you, not in what it produced.*
+
+This is not a claim that building doesn't matter, or that the founder should reconceive of herself as a passive observer of her own company. The act of building a company — making payroll, shipping product, firing people who aren't working out, staring at a ceiling at 2 a.m. wondering if you've bet your life on the wrong idea — is one of the most intense forms of human experience available. The building *is* the experience. They are not separable.
+
+But here is the distinction that matters: the founder who locates her identity in the *company* — its valuation, its market position, its reputation — has built her self on something that can be taken away. The founder who locates her identity in *what the process of building revealed and demanded and changed in her* — the judgment she developed, the resilience she was forced to grow, the understanding of people that only comes from being responsible for them — has built her self on something that cannot.
+
+The same work. The same years. The same sleepless nights. But two entirely different foundations for identity. One is contingent on outcomes. The other is constituted by transformation.
 
 The experience of working through a difficult problem is not canceled by an AI's ability to solve the same problem faster. Your experience of that work — the frustration, the insight, the particular way your mind moved through the material, the satisfaction of the solution — occurred. It was real. It changed you. That change is yours.
 
@@ -78,4 +84,4 @@ The experience of loving music — not performing it competitively, but the way 
 
 These experiences constitute a life. They are the life. Not the outcomes they produce, not the skills they demonstrate, not the value they add to anything. The experiencing itself.
 
-When you shift your self-understanding from *producer* to *experiencer*, the entire landscape of what counts as a good life changes. And it changes in a direction that makes you genuinely less vulnerable to the thing ASI is taking away.
+This is not a retreat from action. It is a reorientation of what action is *for*. The builder who understands this keeps building — but she is no longer hostage to the question of whether what she builds survives. Her identity rests on the one thing ASI cannot touch: the fact that she was changed by the work, and that change is hers.
