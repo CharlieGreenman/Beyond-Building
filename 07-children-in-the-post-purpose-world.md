@@ -40,6 +40,14 @@ Imagine spending eighteen years training a child to be an extraordinary telegrap
 
 This is what we are doing now. Not with telegraph operators, but with the entire category of human cognitive labor.
 
+And here is the danger that follows: when the old framework collapses, the vacuum does not stay empty. Something fills it. And the thing most likely to fill it — because it requires no philosophical work, no interior reconstruction, no confrontation with hard questions about meaning — is appearance.
+
+When cognitive credentials lose their power to differentiate, the easiest pivot is to the one form of status signaling that ASI cannot directly outperform: how you look. The orthodontics, the athletic physique, the curated personal brand, the right clothes, the careful grooming — these already function as an unacknowledged credential in every institution that officially evaluates only skill and character. Parents already invest heavily in their children's appearance alongside their education. The risk is that when education's promise breaks, the investment in appearance doesn't decrease. It intensifies. It becomes the thing that's left.
+
+This would be the achievement-identity trap in a new costume. Still externally validated — you are as valuable as others judge you to be. Still contingent — beauty fades, fashion shifts, the standard changes. Still entirely missing the point. A generation that replaces "my worth is what I can do" with "my worth is how I look" has not escaped the crisis. It has merely traded one collapsing foundation for another that was never sound to begin with.
+
+The alternative framework we need for children must be robust enough to resist this gravitational pull — not just the pull of obsolete credentialism, but the pull of whatever superficial replacement rushes in to take its place.
+
 ---
 
 ## What Education Was Really For
