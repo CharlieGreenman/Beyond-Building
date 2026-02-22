@@ -55,6 +55,10 @@ body {
   page-break-before: always;
 }
 
+.chapter:first-of-type {
+  page-break-before: auto;
+}
+
 /* ── Headings ───────────────────────────────────────────── */
 
 /* H1 = chapter title */
