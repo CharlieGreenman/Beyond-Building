@@ -17,6 +17,49 @@ body {
   color: #111;
 }
 
+/* ── Table of contents ──────────────────────────────────── */
+.toc-page {
+  page-break-after: always;
+  padding-top: 0.5in;
+}
+
+.toc-heading {
+  font-size: 14pt;
+  font-weight: normal;
+  font-variant: small-caps;
+  letter-spacing: 0.15em;
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+.toc-entry {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 0.45rem;
+  font-size: 10pt;
+  line-height: 1.4;
+}
+
+.toc-title {
+  flex-shrink: 0;
+  max-width: 78%;
+}
+
+.toc-leader {
+  flex-grow: 1;
+  margin: 0 0.3rem;
+  border-bottom: 1px dotted #aaa;
+  position: relative;
+  top: -0.2em;
+  min-width: 1rem;
+}
+
+.toc-num {
+  flex-shrink: 0;
+  font-size: 9.5pt;
+  color: #444;
+}
+
 /* ── Title page ─────────────────────────────────────────── */
 section.title-page {
   display: flex;
@@ -153,7 +196,7 @@ section.title-page {
 }
 `;
 
-export function buildHtml(chapters: Chapter[]): string {
+export function buildHtml(chapters: Chapter[], tocHtml = ''): string {
   const chaptersHtml = chapters
     .map((ch) => `<div class="chapter">${ch.html}</div>`)
     .join('\n');
@@ -165,6 +208,7 @@ export function buildHtml(chapters: Chapter[]): string {
   <style>${CSS}</style>
 </head>
 <body>
+  ${tocHtml}
   ${chaptersHtml}
 </body>
 </html>`;

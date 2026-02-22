@@ -2,6 +2,9 @@ import puppeteer from 'puppeteer';
 import { PDFDocument } from 'pdf-lib';
 import * as fs from 'fs';
 import * as path from 'path';
+import { measureChapterPages, buildTocHtml } from './toc';
+import { buildHtml } from './template';
+import type { Chapter } from './chapters';
 
 const PAGE_W = '6in';
 const PAGE_H = '9in';
@@ -36,7 +39,7 @@ async function renderHtmlToPdfBytes(
 }
 
 export async function generatePdf(
-  contentHtml: string,
+  chapters: Chapter[],
   coverImagePath: string | undefined,
   outputPath: string
 ): Promise<void> {
@@ -50,7 +53,15 @@ export async function generatePdf(
   try {
     const tab = await browser.newPage();
 
-    // ── Content PDF (title page + chapters, normal margins) ──
+    // ── Pass 1: measure chapter positions to build TOC ──
+    const baseHtml = buildHtml(chapters);
+    const tocEntries = await measureChapterPages(tab, baseHtml);
+    const tocHtml = buildTocHtml(tocEntries);
+
+    // ── Pass 2: final content HTML with TOC injected ──
+    const contentHtml = buildHtml(chapters, tocHtml);
+
+    // ── Content PDF (chapters + TOC, normal margins) ──
     const contentBytes = await renderHtmlToPdfBytes(tab, contentHtml, {
       width: PAGE_W,
       height: PAGE_H,

@@ -1,7 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { loadChapters } from './chapters';
-import { buildHtml } from './template';
 import { generatePdf } from './pdf';
 import { generateCover } from './cover';
 import { generateEpub } from './kindle';
@@ -37,11 +36,8 @@ async function main(): Promise<void> {
   }
 
   if (wantPdf) {
-    console.log('Building PDF HTML...');
-    const html = buildHtml(chapters);
-
-    console.log('Generating PDF...');
-    await generatePdf(html, assetsCoverPath, pdfPath);
+    console.log('Generating PDF (with TOC)...');
+    await generatePdf(chapters, assetsCoverPath, pdfPath);
     console.log(`  PDF written to:   ${pdfPath}\n`);
   }
 
