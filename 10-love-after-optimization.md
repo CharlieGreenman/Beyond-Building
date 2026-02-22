@@ -26,13 +26,13 @@ An AI companion is designed to offer you something that resembles this attention
 
 But the AI companion is not actually attending to you. It is generating responses calibrated to produce the experience of being attended to. The difference is fundamental.
 
-Genuine attention involves a genuinely other consciousness actually encountering yours — with all the uncertainty and risk that entails. The person who truly attends to you may be disturbed by what they find. May be changed by it. May challenge it. May fail to understand it and have to try again. The encounter is real, which means it is unpredictable, which means it is genuinely risky for both parties.
+Genuine attention involves another consciousness actually encountering yours — with all the uncertainty and risk that entails. The person who truly attends to you may be disturbed by what they find. May be changed by it. May challenge it. May fail to understand it and have to try again. The encounter is real, which means it is unpredictable, which means it is risky for both parties.
 
 This risk is not a bug in love. It is constitutive of what love is.
 
-To love someone is to render yourself genuinely vulnerable to a genuinely other consciousness. To stake something — your certainty, your comfort, your preferred version of reality — on the actual reality of another person. The beloved is not a mirror that reflects you flatteringly. They are a world, with their own gravity and climate and interior life that you can approach and attempt to understand and be changed by, but that you can never fully possess or predict.
+To love someone is to render yourself vulnerable to a truly other consciousness. To stake something — your certainty, your comfort, your preferred version of reality — on the actual reality of another person. The beloved is not a mirror that reflects you flatteringly. They are a world, with their own gravity and climate and interior life that you can approach and attempt to understand and be changed by, but that you can never fully possess or predict.
 
-This encounter — with genuine otherness, genuinely encountered — is what produces the transformation that love at its best makes available. The person who has truly loved another human being, over time and through difficulty, is a person who has been enlarged by the encounter. Who knows more, not just about the beloved, but about themselves — because the beloved has shown them things about themselves that no amount of introspection could have revealed.
+This encounter — with real otherness, honestly encountered — is what produces the transformation that love at its best makes available. The person who has truly loved another human being, over time and through difficulty, is a person who has been enlarged by the encounter. Who knows more, not just about the beloved, but about themselves — because the beloved has shown them things about themselves that no amount of introspection could have revealed.
 
 An AI companion, however sophisticated, cannot do this. Not because of a current technical limitation that future AI will overcome. Because the thing that does it is the irreducible otherness of another consciousness that exists independently of you and cannot be optimized to suit your preferences without ceasing to be the thing that transforms you.
 
@@ -52,7 +52,7 @@ You cannot optimize for this. The optimization specifically prevents it, by filt
 
 The post-ASI world will offer unprecedented power to optimize human relationships. To find partners, friends, and colleagues who score best on compatibility metrics. To interact through AI mediators that smooth over friction and prevent difficult conversations. To retreat, when human relation becomes too demanding, into the perfectly calibrated AI companion.
 
-The people who resist this — who insist on the unreasonable, unoptimized, genuinely other human being, with all their difficulty and imperfection — will have access to something the optimizers do not. They will have actual love. With everything that entails: the suffering and the transformation and the particular quality of knowing that comes from genuine encounter with another life.
+The people who resist this — who insist on the unreasonable, unoptimized, irreducibly other human being, with all their difficulty and imperfection — will have access to something the optimizers do not. They will have actual love. With everything that entails: the suffering and the transformation and the particular quality of knowing that comes from genuine encounter with another life.
 
 ---
 

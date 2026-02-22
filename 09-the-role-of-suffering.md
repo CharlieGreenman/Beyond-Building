@@ -62,7 +62,7 @@ Suffering, in these cases, is not producing meaning directly. It is producing th
 
 ## The Stoic Answer, Updated
 
-The Stoics had a practice called *meditatio malorum* — meditation on difficult possibilities. They would deliberately imagine the things they feared most: losing wealth, losing status, losing loved ones. Not to make themselves miserable, but to develop equanimity in advance of actual difficulty, to make the distinction between what was genuinely within their control and what was not, and to practice the attitude of willing engagement with reality that they called *amor fati* — love of fate.
+The Stoics had a practice called *meditatio malorum* — meditation on difficult possibilities. They would deliberately imagine the things they feared most: losing wealth, losing status, losing loved ones. Not to make themselves miserable, but to develop equanimity in advance of actual difficulty, to make the distinction between what was genuinely within their control and what was not, and to practice an attitude of willing engagement with reality that Nietzsche would later crystallize as *amor fati* — love of fate.
 
 This practice is odd-sounding to modern sensibilities. Why would you deliberately think about bad things? But its underlying logic is sound: a person who has genuinely reckoned with the possibility of loss is a person who can encounter actual loss with more equanimity than one who has spent their life avoiding the thought.
 
