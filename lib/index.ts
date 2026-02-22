@@ -38,10 +38,10 @@ async function main(): Promise<void> {
 
   if (wantPdf) {
     console.log('Building PDF HTML...');
-    const html = buildHtml(chapters, assetsCoverPath);
+    const html = buildHtml(chapters);
 
     console.log('Generating PDF...');
-    await generatePdf(html, pdfPath);
+    await generatePdf(html, assetsCoverPath, pdfPath);
     console.log(`  PDF written to:   ${pdfPath}\n`);
   }
 

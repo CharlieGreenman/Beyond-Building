@@ -1,4 +1,3 @@
-import * as fs from 'fs';
 import { Chapter } from './chapters';
 
 const CSS = `
@@ -16,23 +15,6 @@ body {
   font-size: 11.5pt;
   line-height: 1.65;
   color: #111;
-}
-
-/* ── Cover image page ───────────────────────────────────── */
-.cover-page {
-  page-break-after: always;
-  /* bleed into all page margins so image fills the full 6x9 sheet */
-  margin: -0.875in -0.75in -1in -0.875in;
-  width: 6in;
-  height: 9in;
-  overflow: hidden;
-}
-
-.cover-page img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
 }
 
 /* ── Title page ─────────────────────────────────────────── */
@@ -171,16 +153,7 @@ section.title-page {
 }
 `;
 
-export function buildHtml(chapters: Chapter[], coverImagePath?: string): string {
-  let coverPageHtml = '';
-  if (coverImagePath && fs.existsSync(coverImagePath)) {
-    const base64 = fs.readFileSync(coverImagePath).toString('base64');
-    coverPageHtml = `
-  <div class="cover-page">
-    <img src="data:image/jpeg;base64,${base64}" alt="Book cover"/>
-  </div>`;
-  }
-
+export function buildHtml(chapters: Chapter[]): string {
   const chaptersHtml = chapters
     .map((ch) => `<div class="chapter">${ch.html}</div>`)
     .join('\n');
@@ -191,7 +164,7 @@ export function buildHtml(chapters: Chapter[], coverImagePath?: string): string 
   <meta charset="UTF-8">
   <style>${CSS}</style>
 </head>
-<body>${coverPageHtml}
+<body>
   <section class="title-page">
     <p class="book-title">Beyond Building</p>
     <p class="book-subtitle">Purpose When Work Ends</p>
