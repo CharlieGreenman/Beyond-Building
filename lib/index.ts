@@ -38,7 +38,7 @@ async function main(): Promise<void> {
 
   if (wantPdf) {
     console.log('Building PDF HTML...');
-    const html = buildHtml(chapters);
+    const html = buildHtml(chapters, assetsCoverPath);
 
     console.log('Generating PDF...');
     await generatePdf(html, pdfPath);
