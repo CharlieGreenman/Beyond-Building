@@ -1,8 +1,6 @@
 # BEYOND PURPOSE
 ### *A Philosophy of Human Meaning After the Last Machine*
 
----
-
 ## PREFACE: THE BUILDER WHO STOPPED BUILDING
 
 I built things for fifteen years.
