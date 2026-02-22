@@ -67,7 +67,7 @@ section.title-page {
   font-weight: normal;
   text-align: center;
   letter-spacing: 0.02em;
-  padding-top: 1.25in;
+  padding-top: 0.3in;
   margin-bottom: 0.6rem;
 }
 
