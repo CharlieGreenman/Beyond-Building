@@ -165,11 +165,6 @@ export function buildHtml(chapters: Chapter[]): string {
   <style>${CSS}</style>
 </head>
 <body>
-  <section class="title-page">
-    <p class="book-title">Beyond Building</p>
-    <p class="book-subtitle">Purpose When Work Ends</p>
-    <p class="book-author">Charlie Greenman</p>
-  </section>
   ${chaptersHtml}
 </body>
 </html>`;
