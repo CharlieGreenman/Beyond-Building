@@ -2,22 +2,44 @@ import * as path from 'path';
 import { loadChapters } from './chapters';
 import { buildHtml } from './template';
 import { generatePdf } from './pdf';
+import { generateCover } from './cover';
+import { generateEpub } from './kindle';
+
+const args = process.argv.slice(2);
+const wantPdf    = args.includes('--pdf')    || args.includes('--all') || args.length === 0;
+const wantKindle = args.includes('--kindle') || args.includes('--all') || args.length === 0;
+
+const srcDir     = path.join(__dirname, '..', 'src');
+const outputDir  = path.join(__dirname, '..', 'output');
+const coverPath  = path.join(outputDir, 'cover.jpg');
+const epubPath   = path.join(outputDir, 'beyond-building.epub');
+const pdfPath    = path.join(outputDir, 'beyond-building.pdf');
 
 async function main(): Promise<void> {
-  const srcDir = path.join(__dirname, '..', 'src');
-  const outputPath = path.join(__dirname, '..', 'output', 'beyond-building.pdf');
-
   console.log('Loading chapters from src/...');
   const chapters = loadChapters(srcDir);
-  console.log(`  ${chapters.length} chapters found.`);
+  console.log(`  ${chapters.length} chapters found.\n`);
 
-  console.log('Building HTML...');
-  const html = buildHtml(chapters);
+  if (wantKindle) {
+    console.log('Generating cover image...');
+    await generateCover(coverPath);
+    console.log(`  Cover written to: ${coverPath}`);
 
-  console.log('Generating PDF (this may take a moment)...');
-  await generatePdf(html, outputPath);
+    console.log('Generating EPUB (Kindle)...');
+    await generateEpub(chapters, coverPath, epubPath);
+    console.log(`  EPUB written to:  ${epubPath}\n`);
+  }
 
-  console.log(`\nDone. PDF written to: ${outputPath}`);
+  if (wantPdf) {
+    console.log('Building PDF HTML...');
+    const html = buildHtml(chapters);
+
+    console.log('Generating PDF...');
+    await generatePdf(html, pdfPath);
+    console.log(`  PDF written to:   ${pdfPath}\n`);
+  }
+
+  console.log('Done.');
 }
 
 main().catch((err) => {
