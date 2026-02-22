@@ -1,6 +1,8 @@
 # Beyond Building
 ### *Purpose When Work Ends*
 
+<img src="assets/cover.jpg" alt="Beyond Building cover" width="300"/>
+
 A book about what human life looks like when ASI and robotics have absorbed the productive economy — and what the most ambitious people do with a world that no longer needs them to build for survival.
 
 **Beyond Building** argues that the collapse of the productive framework is not the end of meaning but its precondition: for the first time in history, civilization has the material foundation to organize itself around depth rather than output. The book traces what this looks like across education, community, economics, and the arc of a human life — and makes the case that the largest building projects in history are still ahead of us, just aimed at different things.

@@ -1,3 +1,4 @@
+import * as fs from 'fs';
 import * as path from 'path';
 import { loadChapters } from './chapters';
 import { buildHtml } from './template';
@@ -11,7 +12,9 @@ const wantKindle = args.includes('--kindle') || args.includes('--all') || args.l
 
 const srcDir     = path.join(__dirname, '..', 'src');
 const outputDir  = path.join(__dirname, '..', 'output');
+const assetsDir  = path.join(__dirname, '..', 'assets');
 const coverPath  = path.join(outputDir, 'cover.jpg');
+const assetsCoverPath = path.join(assetsDir, 'cover.jpg');
 const epubPath   = path.join(outputDir, 'beyond-building.epub');
 const pdfPath    = path.join(outputDir, 'beyond-building.pdf');
 
@@ -23,6 +26,9 @@ async function main(): Promise<void> {
   if (wantKindle) {
     console.log('Generating cover image...');
     await generateCover(coverPath);
+    // Keep assets/cover.jpg in sync for README display
+    fs.mkdirSync(assetsDir, { recursive: true });
+    fs.copyFileSync(coverPath, assetsCoverPath);
     console.log(`  Cover written to: ${coverPath}`);
 
     console.log('Generating EPUB (Kindle)...');
