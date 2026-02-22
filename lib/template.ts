@@ -18,7 +18,7 @@ body {
 }
 
 /* ── Title page ─────────────────────────────────────────── */
-.title-page {
+section.title-page {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -165,11 +165,11 @@ export function buildHtml(chapters: Chapter[]): string {
   <style>${CSS}</style>
 </head>
 <body>
-  <div class="title-page">
+  <section class="title-page">
     <p class="book-title">Beyond Building</p>
     <p class="book-subtitle">Purpose When Work Ends</p>
     <p class="book-author">Charlie Greenman</p>
-  </div>
+  </section>
   ${chaptersHtml}
 </body>
 </html>`;
