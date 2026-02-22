@@ -1,0 +1,19 @@
+{
+  "name": "beyond-building",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "pdf": "ts-node lib/index.ts",
+    "pdf:prod": "npm run build && node dist/index.js"
+  },
+  "dependencies": {
+    "marked": "^12.0.0",
+    "puppeteer": "^24.37.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.4.0"
+  }
+}
